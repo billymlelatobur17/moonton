@@ -1,8 +1,10 @@
+@import "button.css";
+@import "sidebar.css";
+@tailwind "input.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@tailwind input;
-@tailwind button;
 .flex::before,
 .flex::after {
     display: none !important;

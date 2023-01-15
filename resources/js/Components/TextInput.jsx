@@ -2,6 +2,7 @@ import { forwardRef, useEffect, useRef } from 'react';
 import PropTypes from "prop-types";
 import {Input} from "postcss";
 
+
 Input.propTypes = {
     type:PropTypes.oneOf(['text', 'email', 'password','number','file']),
     name:PropTypes.string,
